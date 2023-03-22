@@ -29,6 +29,6 @@ if __name__ == "__main__":
             user_passwd = input("Please enter your password to encode: ")
             encoded_passwd = encode(user_passwd)
         elif option == 2:
-            decode(encoded_passwd, user_passwd)
+            pass
         elif option == 3:
             break
