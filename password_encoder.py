@@ -1,5 +1,5 @@
-# menu that accepts a password, encodes it and stores it
-# option to retrieve the stored encoding and the original password
+# encode.py
+# collaborators: Ernesto Lopez, Yair Temkin
 
 def encode(user_passwd):
     encoded_passwd = ''
