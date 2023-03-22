@@ -11,9 +11,6 @@ def encode(user_passwd):
     print("Your password has been encoded and stored!\n")
     return encoded_passwd
 
-def decode(encoded_password, user_passwd):
-    print(f"The encoded password is {encoded_password}, and the original password is {user_passwd}.\n")
-
 
 def print_menu():
     print(f"Menu\n"
