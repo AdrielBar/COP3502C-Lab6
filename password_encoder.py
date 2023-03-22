@@ -1,4 +1,5 @@
 # encode.py
+# by: Adriel Barzola
 # collaborators: Ernesto Lopez, Yair Temkin
 
 def encode(user_passwd):
