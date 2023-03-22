@@ -2,15 +2,16 @@
 # by: Adriel Barzola
 # collaborators: Ernesto Lopez, Yair Temkin
 
-def encode(user_passwd):
-    encoded_passwd = ''
-    for i in user_passwd:
+
+def encode(user_password):
+    encoded_password = ''
+    for i in user_password:
         temp_element = int(i) + 3
         if temp_element >= 10:
             temp_element -= 10
-        encoded_passwd += str(temp_element)
+        encoded_password += str(temp_element)
     print("Your password has been encoded and stored!\n")
-    return encoded_passwd
+    return encoded_password
 
 
 def print_menu():
