@@ -52,3 +52,5 @@ if __name__ == "__main__":
             print(f"The encoded password is {encoded_passwd}, and the original password is {decoded_passwd}.")
         elif option == 3:
             break
+
+# this is a comment
